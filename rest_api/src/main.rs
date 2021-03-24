@@ -13,19 +13,19 @@ fn get_notes() -> String {
 
 // const generics MVP usage
 //link : https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta
-fn combine_notes_to_str<const N: usize>(notes: [String; N]) -> String {
+fn combine_notes_to_str<const N: usize>(notes: [&str; N]) -> String {
     // let notes_iter = notes.iter();
     // let output = notes_iter.;
     let output = notes.join(" ");
-    format!("Notes : {}", output)
+    format!("Notes : \n{}", output)
 }
 
 // const generics MVP
 // link : https://blog.rust-lang.org/2022/02/26/const-generics-mvp-beta
 fn create_notes<const N: usize>() -> String {
-    let mut array: [String; N] = [String::new() ; N];
+    let mut array: [&str; N] = ["Note" ; N];
     for i in 0..N {
-        array[i] = format!("Note {}", i);
+        array[i] = "A note!\n";
     }
     combine_notes_to_str(array)
 }
@@ -35,5 +35,5 @@ fn main() {
     // try const generics
     let mut my_app = rocket::ignite();
     let my_router = routes![index, get_notes];
-    my_app.mount( "/", my_router);
+    my_app.mount( "/", my_router).launch();
 }

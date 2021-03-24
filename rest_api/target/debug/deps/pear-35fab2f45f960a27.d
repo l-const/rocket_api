@@ -1,0 +1,13 @@
+/home/kon/WebstormProjects/rocket_api/rest_api/target/debug/deps/pear-35fab2f45f960a27.rmeta: /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/lib.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/macros.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/input.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/result.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/debug.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/combinators.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/parsers.rs
+
+/home/kon/WebstormProjects/rocket_api/rest_api/target/debug/deps/libpear-35fab2f45f960a27.rlib: /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/lib.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/macros.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/input.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/result.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/debug.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/combinators.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/parsers.rs
+
+/home/kon/WebstormProjects/rocket_api/rest_api/target/debug/deps/pear-35fab2f45f960a27.d: /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/lib.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/macros.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/input.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/result.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/debug.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/combinators.rs /home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/parsers.rs
+
+/home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/lib.rs:
+/home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/macros.rs:
+/home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/input.rs:
+/home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/result.rs:
+/home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/debug.rs:
+/home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/combinators.rs:
+/home/kon/.cargo/registry/src/github.com-1ecc6299db9ec823/pear-0.1.4/src/parsers.rs:

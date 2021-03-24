@@ -6,16 +6,20 @@
 fn index() -> &'static str {
     "Hello world from REST_API"
 }
+
+#[get("/notes/<noteid>")]
+fn get_note_id(noteid: usize) -> String {
+    format!("NoteId is: {}", noteid)
+}
+
 #[get("/notes")]
 fn get_notes() -> String {
-    create_notes::<3>()
+    create_notes::<5>()
 }
 
 // const generics MVP usage
 //link : https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta
 fn combine_notes_to_str<const N: usize>(notes: [&str; N]) -> String {
-    // let notes_iter = notes.iter();
-    // let output = notes_iter.;
     let output = notes.join(" ");
     format!("Notes : \n{}", output)
 }
@@ -34,6 +38,6 @@ fn main() {
     println!("Server is starting!");
     // try const generics
     let mut my_app = rocket::ignite();
-    let my_router = routes![index, get_notes];
+    let my_router = routes![index, get_notes, get_note_id];
     my_app.mount( "/", my_router).launch();
 }

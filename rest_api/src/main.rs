@@ -14,13 +14,14 @@ fn get_note_id(noteid: usize) -> String {
 
 #[get("/notes")]
 fn get_notes() -> String {
-    create_notes::<5>()
+    create_notes::<5>();
+    create_notes::<3>()
 }
 
 // const generics MVP usage
 //link : https://blog.rust-lang.org/2021/02/26/const-generics-mvp-beta
 fn combine_notes_to_str<const N: usize>(notes: [&str; N]) -> String {
-    let output = notes.join(" ");
+    let output = notes.join("");
     format!("Notes : \n{}", output)
 }
 
